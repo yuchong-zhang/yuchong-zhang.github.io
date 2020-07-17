@@ -1,8 +1,8 @@
 ---
 title: "Density functional study of one-and two-component bottlebrush molecules in solvents of varying quality"
 collection: publications
-permalink: /publication/05/23/2020-bottlebrush
-date: 05/23/2020
+permalink: /publication/2020-05-23-bottlebrush
+date: 2020-05-23
 venue: 'Molecular Physics'
 paperurl: 'http://academicpages.github.io/files/bottlebrush.pdf'
 citation: 'Zhang, Yuchong, et al. &quot;Density functional study of one-and two-component bottlebrush molecules in solvents of varying quality.&quot; Molecular Physics (2020): 1-16.'
