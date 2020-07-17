@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Yuchong Zhang Account"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  bio              : "Data scientist at Schlumberger"
+  location         : "Houston, Texas"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "http://yourfullgooglescholarurl.com"
