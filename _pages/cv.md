@@ -14,10 +14,11 @@ Education
 * B.S. in Polymer Materials & Engineering, Zhejiang University, 2014
 * Ph.D. in Chemical Engineering, Rice University, 2019
 * M.S in Statistics, Rice University, 2020 (expected)
+* M.S in Computer Scinece, Georgia Institute of Technology, 2022 (expected)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
+* Summer 2014: Research Assistant
   * Github University
   * Duties included: Tagging issues
   * Supervisor: Professor Git
