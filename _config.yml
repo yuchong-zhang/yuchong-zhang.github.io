@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Yuchong Zhang Account"
+title                    : "Yuchong Zhang"
 title_separator          : "-"
 name                     : &name "Yuchong Zhang Account"
 description              : &description "data scientist at Schlumberger"
@@ -81,8 +81,8 @@ analytics:
 # Site Author
 author:
   name             : "Yuchong Zhang"
-  avatar           : "profile_Yuchong.jpg"
-  bio              : "Data scientist, software engineer, chemical engineer, basketball lover"
+  avatar           : "profile_Yuchong_cropped.jpg"
+  bio              : "Data scientist, Software engineer, Chemical engineer, Basketball lover"
   location         : "Houston, Texas"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
