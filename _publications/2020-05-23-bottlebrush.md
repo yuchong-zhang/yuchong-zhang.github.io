@@ -2,7 +2,7 @@
 title: "Density functional study of one-and two-component bottlebrush molecules in solvents of varying quality"
 collection: publications
 permalink: /publication/2020-05-23-bottlebrush
-excerpt: 'Modified inhomogeneous statistical associating fluid theory (iSAFT) density functional theory is extended to bottlebrush polymers in both good and poo...'
+excerpt: 'Modified inhomogeneous statistical associating fluid theory (iSAFT) density functional theory is extended to bottlebrush polymers in both good and poor solvent. The detailed structures of side chains in the implicit solvent are calculated and have a semi-quantitative agreement with simulation. The a...'
 date: 2020-05-23
 venue: 'Molecular Physics'
 paperurl: 'http://yuchong-zhang.github.io/files/bottlebrush.pdf'

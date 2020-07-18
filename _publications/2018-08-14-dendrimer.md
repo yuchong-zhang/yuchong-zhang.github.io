@@ -2,7 +2,7 @@
 title: "Density functional study of dendrimer molecules in solvents of varying quality"
 collection: publications
 permalink: /publication/2018-08-14-dendrimer
-excerpt: 'Modified inhomogeneous statistical associating fluid theory (iSAFT) density functional theory is extended to dendrimer molecules in solvents of varyin...'
+excerpt: 'Modified inhomogeneous statistical associating fluid theory (iSAFT) density functional theory is extended to dendrimer molecules in solvents of varying quality. The detailed structures of isolated dendrimers in implicit solvent are calculated and have a semi-quantitative agreement with simulation re...'
 date: 2018-08-14
 venue: 'the Journal of chemical physics'
 paperurl: 'http://yuchong-zhang.github.io/files/dendrimer.pdf'

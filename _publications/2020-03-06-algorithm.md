@@ -2,7 +2,7 @@
 title: "An Efficient Algorithm for Molecular Density Functional Theory in Cylindrical Geometry: Application to Interfacial Statistical Associating Fluid Theory (iSAFT)"
 collection: publications
 permalink: /publication/2020-03-06-algorithm
-excerpt: 'In this work, we present an efficient numerical algorithm for the solution of molecular density functional theory (DFT) in cylindrical geometry to fac...'
+excerpt: 'In this work, we present an efficient numerical algorithm for the solution of molecular density functional theory (DFT) in cylindrical geometry to facilitate the study of how curvature affects the microstructure and phase behavior of inhomogeneous fluids. The new solution algorithm is shown to have ...'
 date: 2020-03-06
 venue: 'Industrial &amp; Engineering Chemistry Research'
 paperurl: 'http://yuchong-zhang.github.io/files/algorithm.pdf'
