@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Yuchong Zhang Account"
-  avatar           : "profile.png"
-  bio              : "Data scientist at Schlumberger"
+  name             : "Yuchong Zhang"
+  avatar           : "profile_Yuchong.jpg"
+  bio              : "Data scientist, software engineer, chemical engineer, basketball lover"
   location         : "Houston, Texas"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
