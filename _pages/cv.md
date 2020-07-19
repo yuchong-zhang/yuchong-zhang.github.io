@@ -11,10 +11,10 @@ redirect_from:
 
 Education
 ======
-* B.S. in Polymer Materials & Engineering, Zhejiang University, 2014
 * Ph.D. in Chemical Engineering, Rice University, 2019
 * M.S in Statistics, Rice University, 2020 (expected)
 * M.S in Computer Scinece, Georgia Institute of Technology, 2022 (expected)
+* B.S. in Polymer Materials & Engineering, Zhejiang University, 2014
 
 Work experience
 ======
@@ -23,10 +23,10 @@ Work experience
   * Duties included: Tagging issues
   * Supervisor: Professor Git
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+*  2013: Research Intern
+  * University of California, Davis
+  * Designed waterproof fabrics via flurochemical grafting, with potential to scale up
+  * Supervisor: Prof. Tingrui Pan
   
 Skills
 ======
