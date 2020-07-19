@@ -18,24 +18,33 @@ Education
 
 Work experience
 ======
-* Summer 2014: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* June 2019 – Present: Data Scientist
+  * Schlumberger Company, Houston
+  * Apply deep learning and other machine learning methods to predict the health status of assets using sensor data, classify different failure modes and generate risk index for the whole fleet.
 
-*  2013: Research Intern
-  * University of California, Davis
-  * Designed waterproof fabrics via flurochemical grafting, with potential to scale up
-  * Supervisor: Prof. Tingrui Pan
+* August 2015 – May 2019: Doctoral Research Assistant
+  * Rice University
+  * Develop theories and algorithms to model thermodynamics of branched molecular systems.
+  * Supervisor: Prof. Walter Chapman
+
+* November 2012 – June 2014: Graduate Teaching Assistant
+  * Rice University
+  * Undertake four terms of graduate teaching assistant work.
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Machine learning/Deep learning
+  * LR, KNN, SVM, RF, PCA, k-means...
+  * LSTM, CNN...
+* Programming
+  * Python (numpy, pandas, scikit-learn, keras, matplotlib, bokeh, flask, pyspark...)
+  * SQL, bash, R, Matlab, Fortran, C
+* Utilizer/Environment
+  * Cloud platfrom, git, docker, dataiku 
+* Statistics/Maths
+  * Bayesian, Mente Carlo, experiment design, density functional theory... 
+* Domain
+  * Prognostics Health Management (PHM), thermodynamics, polymers...
 
 Publications
 ======
