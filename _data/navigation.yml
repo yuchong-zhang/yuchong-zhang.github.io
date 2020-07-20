@@ -9,6 +9,9 @@ main:
   - title: "Education"
     url: /education/ 
 
+  - title: "Notebook"
+    url: /notebook/ 
+
   - title: "Blog Posts"
     url: /year-archive/
     
