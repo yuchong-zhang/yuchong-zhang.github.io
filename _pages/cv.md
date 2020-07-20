@@ -18,33 +18,32 @@ Education
 
 Work experience
 ======
-* June 2019 – Present: Data Scientist
-  * Schlumberger Company, Houston
+* 2019 – Present: Data Scientist, Schlumberger
   * Apply deep learning and other machine learning methods to predict the health status of assets using sensor data, classify different failure modes and generate risk index for the whole fleet.
 
-* August 2015 – May 2019: Doctoral Research Assistant
+* 2015 – 2019: Doctoral Research Assistant, Rice University
   * Rice University
   * Develop theories and algorithms to model thermodynamics of branched molecular systems.
   * Supervisor: Prof. Walter Chapman
 
-* November 2012 – June 2014: Graduate Teaching Assistant
-  * Rice University
+* 2012 – 2014: Graduate Teaching Assistant, Rice University
   * Undertake four terms of graduate teaching assistant work.
   
 Skills
 ======
-* Machine learning/Deep learning
-  * LR, KNN, SVM, RF, PCA, k-means...
-  * LSTM, CNN...
+* Statistical/Machine/Deep learning
+  * LR, KNN, SVM, RF, PCA, k-means
+  * LSTM, CNN
 * Programming
   * Python (numpy, pandas, scikit-learn, keras, matplotlib, bokeh, flask, pyspark...)
   * SQL, bash, R, Matlab, Fortran, C
-* Utilizer/Environment
+* Project/Product development
   * Cloud platfrom, git, docker, dataiku 
 * Statistics/Maths
-  * Bayesian, Mente Carlo, experiment design, density functional theory... 
-* Domain
-  * Prognostics Health Management (PHM), thermodynamics, polymers...
+  * Bayesian, Mente Carlo, experiment design
+  * Fourier transform, density functional theory 
+* Domain knowledge
+  * Prognostics Health Management (PHM), thermodynamics, polymers
 
 Publications
 ======
@@ -58,12 +57,4 @@ Talks
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
