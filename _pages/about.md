@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,4 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-This is Yuchong Zhang's home on the web!
+{% include base_path %}
+
+Hi! I’m Yuchong.
+
+## My work and research
+I am a data scientist.
+
+## Being a lifelong learner
+I like to learn new things.
+
+## The other side of me
+I love basketball.
