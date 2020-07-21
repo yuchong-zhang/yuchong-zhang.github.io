@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-Hi! I’m Yuchong.
+Hi! I’m Yuchong. This is my personal website, which mainly presents my academic and technical skills and achievenment. I hope it not only acts as a window for you to know me, but also works as a tape to record my personal development. Seeing this website grow bigger and better, I will know I am on the right track.
 
 ## My work and research
 I am a data scientist.
