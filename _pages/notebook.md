@@ -11,5 +11,5 @@ author_profile: true
 {% include base_path %}
 
 {% for post in site.notes %}
-  {% include archive-single.html %}
+  {% include archive-single-cv.html %}
 {% endfor %}

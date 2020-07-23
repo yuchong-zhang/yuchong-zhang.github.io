@@ -3,6 +3,8 @@ title: "NBA teams I have watched live"
 collection: projects
 permalink: /projects/basketball_map
 projecturl: 'https://github.com/yuchong-zhang/basketball_map'
+tags:
+  - R
 ---
 
 <a href='https://github.com/yuchong-zhang/basketball_map'>See project here</a>

@@ -4,6 +4,6 @@ collection: notes
 permalink: /projects/python-note
 ---
 
-# decorator
-# iterator
-# what is __name__?
+decorator
+
+iterator
