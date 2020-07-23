@@ -5,7 +5,7 @@ permalink: /education/
 author_profile: true
 ---
 
-MS in Statistics, Rice University
+**MS in Statistics, Rice University**
 * Coursework (GPA: 4.00):
   * STAT 518 Probability
   * STAT 519 Statistical Inference
@@ -18,7 +18,7 @@ MS in Statistics, Rice University
   * COMP 533 Intro to Database Systems
   * CHBE 615 Applied Molecular Simulation & Statistcal Mechanics
 
-Ph.D. in Chemical Engineering, Rice University
+**Ph.D. in Chemical Engineering, Rice University**
 * Coursework (GPA: 3.88):
   * CHBE 501 Fluid Mechanics & Transport Process
   * CHBE 590 Advanced Reaction Engineering
@@ -29,7 +29,7 @@ Ph.D. in Chemical Engineering, Rice University
   * PHYS 533 Nanostructure/Nanotechnology  
   * PHYS 610 Methods of Molecular Simulation
 
-Coursera
+**Coursera**
 * Deep Learning Specialization offered by deeplearning.ai
   * Neural Networks and Deep Learning
   * Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization
@@ -45,8 +45,8 @@ Coursera
 
 * Version Control with Git offered by Atlassian
 
-Udemy
+**Udemy**
 * Taming Big Data with Apache Spark and Python - Hands on!
 
-Other
+**Other**
 * Stanford CS231n: Convolutional Neural Networks for Visual Recognition
