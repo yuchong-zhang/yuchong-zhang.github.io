@@ -1,7 +1,8 @@
 ---
-title: "NBA teams I have watched live"
+title: "NBA teams grand tour"
 collection: projects
 permalink: /projects/basketball_map
+excerpt: 'an R project to visulize the NBA teams I have visited'
 projecturl: 'https://github.com/yuchong-zhang/basketball_map'
 tags:
   - R
