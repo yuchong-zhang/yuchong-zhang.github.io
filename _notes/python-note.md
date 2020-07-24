@@ -4,8 +4,8 @@ collection: notes
 permalink: /projects/python-note
 ---
 
-  1. decorator<br/>
+  1. <b>decorator</b><br/>
       decorator is bbbbb 
-  2. iterator<br/>
+  2. <b>iterator</b><br/>
       iterator is aaaa
  

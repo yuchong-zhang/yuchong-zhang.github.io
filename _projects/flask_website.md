@@ -9,6 +9,6 @@ tags:
   - flask
 ---
 
-<a href='https://github.com/yuchong-zhang/flask-blog'>See project here</a>
+<a href='https://github.com/yuchong-zhang/flask-blog'>See repo here</a>
 
 A project on building a blog website using flask
