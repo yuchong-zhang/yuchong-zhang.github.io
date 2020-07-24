@@ -1,8 +1,8 @@
 ---
-title: "NBA teams grand tour"
+title: "NBA grand tour"
 collection: projects
 permalink: /projects/basketball_map
-excerpt: 'an R project to visulize the NBA teams I have visited'
+excerpt: 'An R project to visulize the NBA teams I have visited'
 projecturl: 'https://github.com/yuchong-zhang/basketball_map'
 tags:
   - R
