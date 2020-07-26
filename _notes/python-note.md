@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "Python notes"
 collection: notes
 permalink: /projects/python-note
