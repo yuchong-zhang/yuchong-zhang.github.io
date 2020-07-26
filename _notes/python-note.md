@@ -10,6 +10,11 @@ permalink: /projects/python-note
       print(sys.version) #python version
       print(sys.executable) #python path
       ```
+      {% highlight python %}
+	  import sys
+      print(sys.version) #python version
+      print(sys.executable) #python path
+      {% endhighlight %}
   2. <b>iterator</b><br/>
       iterator is aaaa
  
