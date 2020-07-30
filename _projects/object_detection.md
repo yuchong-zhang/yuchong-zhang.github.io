@@ -5,8 +5,8 @@ permalink: /projects/object_detection
 excerpt: 'A python project to detect hoops and balls in pictures'
 projecturl: 'https://github.com/yuchong-zhang/object-detection-hoop_and_ball'
 tags:
-  - python
-  - tensorflow
+  - Python
+  - DL
 ---
 
 <a href='https://github.com/yuchong-zhang/object-detection-hoop_and_ball'>See repo here</a>

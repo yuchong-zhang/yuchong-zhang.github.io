@@ -5,7 +5,7 @@ permalink: /projects/flask_website
 excerpt: 'A Python flask project to build a blog website'
 projecturl: 'https://github.com/yuchong-zhang/flask-blog'
 tags:
-  - python
+  - Python
   - flask
 ---
 
