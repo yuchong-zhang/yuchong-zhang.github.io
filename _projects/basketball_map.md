@@ -10,4 +10,4 @@ tags:
 
 <a href='https://github.com/yuchong-zhang/basketball_map'>See repo here</a>
 
-<img class="alignnone  wp-image-577" alt="drsg" src="https://yuchong-zhang.github.io/images/basketball_map.png" width="2016" height="1220"/>
+<img class="alignnone  wp-image-577" alt="basketball_map" src="https://yuchong-zhang.github.io/images/basketball_map.png" width="2016" height="1220"/>
