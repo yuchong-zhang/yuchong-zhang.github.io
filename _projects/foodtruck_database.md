@@ -12,4 +12,4 @@ tags:
 
 In this project, a SQL database is built to support an ice cream food truck business. An entity-relationship diagram is developed first. Following the ERD, the databases is constructed and populated. Functions, stored procedures, and triggers are written to add functionality to database.
 
-<img class="alignnone  wp-image-577" alt="showcase" src="https://yuchong-zhang.github.io/images/ERD.png" width="1650" height="1230"/>
+<img class="alignnone  wp-image-577" alt="showcase" src="https://yuchong-zhang.github.io/images/ERD.png" width="1649" height="1225"/>
