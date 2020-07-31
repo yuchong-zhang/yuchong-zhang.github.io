@@ -10,4 +10,4 @@ tags:
 
 <a href='https://github.com/yuchong-zhang/yuchong-zhang.github.io'>See repo here</a>
 
-A Github Pages application to build this personal website
+A Github Pages application to build this personal website. I fork the repo from https://github.com/academicpages/academicpages.github.io and customize it. The rest is self-explanatory.
