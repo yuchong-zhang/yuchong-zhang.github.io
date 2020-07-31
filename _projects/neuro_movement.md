@@ -13,6 +13,6 @@ This is research project collaborated between Rice University and Baylor College
 
 The data used has not been published and multiple teammates have contributed to this projects. Therefore, instead of source code, a <a href='http://yuchong-zhang.github.io/files/neuron_movement.pdf'>poster link</a> is provided. The project gained wide recognition and won <a href='https://news.rice.edu/2018/12/03/from-urban-flooding-to-mouse-brains-d2k-students-take-on-big-data/'>the inaugural D2K Learning Lab Showcase</a> at Rice.
 
-<img class="alignnone  wp-image-577" alt="showcase" src="https://yuchong-zhang.github.io/images/DeepLabCut.png" width="844" height="284"/>
+<img class="alignnone  wp-image-577" alt="DeepLabCut" src="https://yuchong-zhang.github.io/images/DeepLabCut.png" width="844" height="284"/>
 
 <img class="alignnone  wp-image-577" alt="showcase" src="https://yuchong-zhang.github.io/images/showcase.jpeg" width="844" height="473"/>
