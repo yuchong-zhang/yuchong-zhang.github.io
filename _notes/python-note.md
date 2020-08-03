@@ -18,7 +18,7 @@ from numba import jit
 def my_function(): #expect to take numpy arrays as arguments
 ~~~
   3. <b>Trick of unpacking</b><br/>
-  Use underscore(\_) for unneeded values and use asterisk(\*) for multiple values.
+  Use underscore (\_) for unneeded values and use asterisk (\*) for multiple values.
 
   4. <b>What does 'python -m xx' do?</b><br/>
   Call module/script 'xx' from sys.path. Following 'xx' one can provide arguments for this module/script.
