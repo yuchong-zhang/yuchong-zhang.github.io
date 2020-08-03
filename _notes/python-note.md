@@ -27,7 +27,7 @@ def my_function(): #expect to take numpy arrays as arguments
   Use a dict or list. Not a good idea to use exec/globals().
   
   6. <b>Time running time in python</b><br/>
-  There are different approaches, using modules such as time, datetime, timeit.
+  There are different approaches, using modules such as time, datetime, timeit. Follow is one of the approaches.
 ~~~ python
 import timeit
 start = timeit.default_timer()
