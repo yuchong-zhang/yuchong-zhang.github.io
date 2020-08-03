@@ -17,11 +17,21 @@ from numba import jit
 @jit(nopython=True)
 def my_function(): #expect to take numpy arrays as arguments
 ~~~
-  3. <b>What is the trick of unpacking</b><br/>
+  3. <b>Trick of unpacking</b><br/>
   Use underscore(\_) for unneeded values and use asterisk(\*) for multiple values.
 
-  4. <b>What does 'python -m xx' do</b><br/>
+  4. <b>What does 'python -m xx' do?</b><br/>
   Call module/script 'xx' from sys.path. Following 'xx' one can provide arguments for this module/script.
 
-  5. <b>How to create different variable names while in a loop?
-  Use a dict or list. Not a good idea to use exec/global().
+  5. <b>How to create different variable names while in a loop?</b><br/>
+  Use a dict or list. Not a good idea to use exec/globals().
+  
+  6. <b>Time running time in python</b><br/>
+  There are different approaches, using modules such as time, datetime, timeit.
+~~~ python
+import timeit
+start = timeit.default_timer()
+#Your statements here
+stop = timeit.default_timer()
+print('Time: ', stop - start)
+~~~
