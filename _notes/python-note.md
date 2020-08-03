@@ -17,6 +17,7 @@ from numba import jit
 @jit(nopython=True)
 def my_function(): #expect to take numpy arrays as arguments
 ~~~
+
   3. <b>Trick of unpacking</b><br/>
   Use underscore (\_) for unneeded values and use asterisk (\*) for multiple values.
 
@@ -34,4 +35,15 @@ start = timeit.default_timer()
 #Your statements here
 stop = timeit.default_timer()
 print('Time: ', stop - start)
+~~~
+
+  7. <b>What is the benefit of using generator? How to use it? </b><br/>
+  Save memory and time. Fetch value only when needed.
+~~~ python
+def function_name(nums):
+    for i in nums:
+        yield i*i
+generator=function_name(nums)
+# or using list comprehension
+generator=(i*i for i in nums)
 ~~~
