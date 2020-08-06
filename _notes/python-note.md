@@ -50,7 +50,6 @@ generator=(i*i for i in nums)
 
 8. <b>What is the LEGB rule in terms of scope? Some common mistakes when working with functions.</b><br/>
 LEGB stands for Local, Enclosing, Global, Builtin, which determines the order in which Python looks up names. Following are some common mistakes.
-
 ~~~ python
 # Case 1: reference before assignment
 x=1
@@ -83,7 +82,7 @@ def fun6(i, arg=None):
     return arg
 ~~~
 
-9. <b>What does *arg, **kwarg do</b><br/>
+9. <b>What does *arg, **kwarg do?</b><br/>
 When defined in functions, *arg and **kwarg allow a vairable number of arguments and a variable number of key-value pairs to pass to a function. When used in calling a function, * and ** unpack a tuple and a dictionary, respectively.
 
 10. <b>How to set path?</b><br/>
