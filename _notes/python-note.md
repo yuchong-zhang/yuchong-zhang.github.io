@@ -50,37 +50,37 @@ generator=(i*i for i in nums)
 
 8. <b>What is the LEGB rule in terms of scope? Some common mistakes when working with functions.</b><br/>
 LEGB stands for Local, Enclosing, Global, Builtin, which determines the order in which Python looks up names. Following are some common mistakes.
-~~~ python
-# Case 1: reference before assignment
-x=1
-def fun1():
-    x=x
-    print(x)
-# fun1 is wrong since x is considered as local variable because of assignment statement. fun2 works.
-def fun2():
-    print(x)
 
-# Case 2: nexted definition != nested function call
-def fun3():
-    print(x)
-
-def fun4():
+    ~~~ python
+    # Case 1: reference before assignment
     x=1
-    fun3()
+    def fun1():
+      x=x
+      print(x)
+    # fun1 is wrong since x is considered as local variable because of assignment statement. fun2 works.
+    def fun2():
+      print(x)
+    # Case 2: nexted definition != nested function call
+    def fun3():
+      print(x)
 
-fun4() #this will return error since there is no x outside the scope of def fun3()
+    def fun4():
+      x=1
+      fun3()
 
-# Case 3: improper use of default mutable argument
-def fun5(i, arg=[]):
-    arg.append(i)
-    return arg
-# In this example, arg will grow everytime you call fun5(i) since the defalut argument is only defined when the function is defined and it is mutable. Following is the correct way.
-def fun6(i, arg=None):
-    if arg==None:
+    fun4() #this will return error since there is no x outside the scope of def fun3()
+
+    # Case 3: improper use of default mutable argument
+    def fun5(i, arg=[]):
+      arg.append(i)
+      return arg
+    # In this example, arg will grow everytime you call fun5(i) since the defalut argument is only defined when the    function is defined and it is mutable. Following is the correct way.
+    def fun6(i, arg=None):
+      if arg==None:
         arg=[]
-    arg.append(i)
-    return arg
-~~~
+      arg.append(i)
+      return arg
+    ~~~
 
 9. <b>What does *arg, **kwarg do?</b><br/>
 When defined in functions, *arg and **kwarg allow a vairable number of arguments and a variable number of key-value pairs to pass to a function. When used in calling a function, * and ** unpack a tuple and a dictionary, respectively.
