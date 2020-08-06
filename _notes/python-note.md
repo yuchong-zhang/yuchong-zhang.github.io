@@ -50,6 +50,7 @@ generator=(i*i for i in nums)
 
 8. <b>What is the LEGB rule in terms of scope? Some common mistakes when working with functions.</b><br/>
 LEGB stands for Local, Enclosing, Global, Builtin, which determines the order in which Python looks up names. Following are some common mistakes.
+
 ~~~ python
 # Case 1: reference before assignment
 x=1
@@ -64,7 +65,7 @@ def fun2():
 def fun3():
     print(x)
 
-def fun4()
+def fun4():
     x=1
     fun3()
 
