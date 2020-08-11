@@ -96,3 +96,6 @@ Save memory and time. Fetch value only when needed.
 
 11. <b>How to import modules not in current directory?</b><br/>
     One way is to add module path to sys.path and the other way is to add PYTHONPATH to system variable.
+
+12. <b>When to use 'is', 'is not' and when to use '==', '!='</b><br/>
+    When comparing the values of two objects, using '==' and '!='. When comparing whether two variables refer to the same object in memory, use 'is' and 'is not'. The main use for 'is' and 'is not' is to compare with None, which is interned at a specific address. Other objects that are interned by default are True, False, small integers and simple strings.
