@@ -99,3 +99,6 @@ Save memory and time. Fetch value only when needed.
 
 12. <b>When to use 'is', 'is not' and when to use '==', '!='</b><br/>
     When comparing the values of two objects, using '==' and '!='. When comparing whether two variables refer to the same object in memory, use 'is' and 'is not'. The main use for 'is' and 'is not' is to compare with None, which is interned at a specific address. Other objects that are interned by default are True, False, small integers and simple strings.
+
+12. <b>Why does <code>max()</code> sometimes return nan and sometimes ignores it?</b><br/>
+    The reason is that <code>max()</code> works by taking the first value as the "max seen so far", and then checking each other value to see if it is bigger than the max seen so far. But nan is defined so that comparisons with it always return False. Max methods from different modules behave differently, so be careful.
