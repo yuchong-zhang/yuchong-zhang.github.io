@@ -93,3 +93,6 @@ Save memory and time. Fetch value only when needed.
     folder_ = Path("folderA/folderB/")
     file_ = folder_/"fileC"
     ~~~
+
+11. <b>How to import modules not in current directory?</b><br/>
+    One way is to add module path to sys.path and the other way is to add PYTHONPATH to system variable.
