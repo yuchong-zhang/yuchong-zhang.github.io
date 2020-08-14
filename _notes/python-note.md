@@ -100,5 +100,8 @@ Save memory and time. Fetch value only when needed.
 12. <b>When to use 'is', 'is not' and when to use '==', '!='</b><br/>
     When comparing the values of two objects, using <code>==</code> and <code>!=</code>. When comparing whether two variables refer to the same object in memory, use <code>is</code> and <code>is not</code>. The main use for <code>is</code> and <code>is not</code> is to compare with <code>None</code>, which is interned at a specific address. Other objects that are interned by default are <code>True</code>, <code>False</code>, small integers and simple strings.
 
-12. <b>Why does max() sometimes return nan and sometimes ignores it?</b><br/>
+13. <b>Why does max() sometimes return nan and sometimes ignores it?</b><br/>
     The reason is that <code>max()</code> works by taking the first value as the "max seen so far", and then checking each other value to see if it is bigger than the "max seen so far". But <code>nan</code> is defined so that comparisons with it always return <code>False</code>. Max methods from different modules behave differently, so be careful.
+
+14. <b>What is the difference between iterable, iterator and generator?</b><br/>
+    Iterator is a subclass of iterable, and generator is a subclass of iterator. Iterable has <code>\_\_iter\_\_</code> method and iterator/generator has <code>\_\_next\_\_</code> method.
