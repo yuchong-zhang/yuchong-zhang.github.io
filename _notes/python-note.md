@@ -105,3 +105,57 @@ Save memory and time. Fetch value only when needed.
 
 14. <b>What is the difference between iterable, iterator and generator?</b><br/>
     Iterator is a subclass of iterable, and generator is a subclass of iterator. Iterable has <code>\_\_iter\_\_</code> method and iterator/generator has <code>\_\_next\_\_</code> method.
+
+15. <b>Syntax of decorator</b><br/>
+    ~~~ python
+    #using function decorator
+    def decorator_function(original_function):
+        def wrapper_function(*args, **kwargs):
+            print('wrapper executed this before {}'.format(original_dunction.__name__))
+            return original_function(*args, **kwargs)
+        return wrapper_function
+    #then use one of the two
+    def original_function():
+        pass
+    original_function=decorator_function(original_function)
+
+    @decorator_function
+    def original_function():
+        pass
+    #using class decorator
+    class decorator_class(object):
+        def __init__(self, original_function):
+            self.original_function = original_function
+        def __call__(self, *args, **kwargs):
+            print('call method before {}'.format(self.original_function.__name__))
+            self.original_function(*args, **kwargs)
+    #then use one of the two
+    def original_function():
+        pass
+    original_function=decorator_class(original_function)
+
+    @decorator_class
+    def original_function():
+        pass
+    ~~~
+
+16. <b>How to customize comparison in sorted() or list.sort()</b><br/>
+    ~~~ python
+    #to customize objects to compare, use function(such as lambda) or operator module (examples below)
+    from operator import itemgetter, attrgetter
+        sorted(tuple_to_sort, key=itemgetter(2))
+        sorted(object_to_sort, key=attrgetter('name'))
+    #to change 1-to-1 comparison rules, either define the rules in a class (either define a class by building from scratch or decorating a function).
+    class reverse_numeric_class:
+        def __init__(self, obj):
+            self.obj=obj
+        def __lt__(self, other):
+            return self.obj>other.obj
+    sorted(nums, key=reverse_numeric_class)
+    
+    from functools import cmp_to_key
+    @cmp_to_key
+    def reverse_numeric_function(x, y):
+        return y - x
+    sorted(nums, key=reverse_numeric_function)
+    ~~~
