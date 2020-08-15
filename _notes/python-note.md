@@ -104,7 +104,7 @@ Save memory and time. Fetch value only when needed.
     The reason is that <code>max()</code> works by taking the first value as the "max seen so far", and then checking each other value to see if it is bigger than the "max seen so far". But <code>nan</code> is defined so that comparisons with it always return <code>False</code>. Max methods from different modules behave differently, so be careful.
 
 14. <b>What is the difference between iterable, iterator and generator?</b><br/>
-    Iterator is a subclass of iterable, and generator is a subclass of iterator. Iterable has <code>\_\_iter\_\_</code> method and iterator/generator has <code>\_\_next\_\_</code> method.
+    Iterator is a subclass of iterable, and generator is a subclass of iterator. Iterable has <code>__iter__</code> method and iterator/generator has <code>__next__</code> method.
 
 15. <b>Syntax of decorator</b><br/>
     ~~~ python
