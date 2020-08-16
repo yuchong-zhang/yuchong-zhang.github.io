@@ -1,7 +1,7 @@
 ---
 title: "Coding notes"
 collection: notes
-permalink: /projects/coding-note
+permalink: /notebook/coding-note
 ---
 1. <b>Python utilities for common data structures</b><br/>
     ~~~ python
