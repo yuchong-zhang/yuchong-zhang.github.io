@@ -41,7 +41,7 @@ permalink: /projects/coding-note
     heapq.heappop(heap) #return the smallest item, O(logN)
     ~~~
 
-2. <b>Some common string methodS in coding</b><br/>
+2. <b>Some common string methods in coding</b><br/>
     ~~~ python
     s='' #or, s=str()
     s.index(val), s.find(val) #if not present, the latter returns -1

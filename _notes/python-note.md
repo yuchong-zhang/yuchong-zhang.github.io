@@ -1,7 +1,7 @@
 ---
 title: "Python notes"
 collection: notes
-permalink: /projects/python-note
+permalink: /notebook/python-note
 ---
 1. <b>How to check the version and path of python?</b><br/>
     ~~~ python
