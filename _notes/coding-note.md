@@ -33,7 +33,7 @@ permalink: /notebook/coding-note
     from collections import deque #O(1) for all operations
     q=deque(iterable[, maxlen]) #maxlen limits the longest length
     q.append(x), q.pop() #stack
-    q.appendleft(x), q.leftpop() #queue
+    q.appendleft(x), q.popleft() #queue
     #min heap
     import heapq
     heapq.heapify(heap) #in place, O(n)

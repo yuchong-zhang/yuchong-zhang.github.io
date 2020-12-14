@@ -159,3 +159,16 @@ Save memory and time. Fetch value only when needed.
         return y - x
     sorted(nums, key=reverse_numeric_function)
     ~~~
+
+16. <b>How to make a list of multiple same items</b><br/>
+    ~~~ python
+    #to make each element independent (list, dic, set)
+    a=[[] for i in range(5)]
+    a[0].append(1) # return [[1], [], [], [], []]
+    a[0] is a[1] # return False
+    #to make copies of same object
+    a=[[]]*5
+    a[0].append(1) # return [[1], [1], [1], [1], [1]]
+    a[0] is a[1] # return True
+    #for immutables, both approaches work the same
+    ~~~
