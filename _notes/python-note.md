@@ -172,3 +172,23 @@ Save memory and time. Fetch value only when needed.
     a[0] is a[1] # return True
     #for immutables, both approaches work the same
     ~~~
+
+17. <b>How to break out of multiple loops?</b><br/>
+    ~~~ python
+    #refactor the nested loop into a function
+    def fun():
+        for i in range(n):
+            for j in range(n):
+                if A[i][j]:
+                    #do something
+                    return
+    #use for-else clause
+    for i in range(n):
+        for j in range(n):
+            if A[i][j]:
+                #do something
+                break
+        else:
+            continue
+        break
+    ~~~
