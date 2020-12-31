@@ -5,6 +5,10 @@ permalink: /education/
 author_profile: true
 ---
 
+**MS in Computer Science (OMSCS), Georgia Institute of Technology**
+* Coursework:
+  * CS 6200: Introduction to Operating Systems
+
 **MS in Statistics, Rice University**
 * Coursework (GPA: 4.00):
   * STAT 518 Probability
@@ -15,6 +19,7 @@ author_profile: true
   * STAT 615 Regression and Linear Models
   * STAT 616 Advanced Statistical Methods
   * STAT 622 Bayesian Data Analysis
+  * STAT 649 Quantitative Financial Risk Management
   * COMP 533 Intro to Database Systems
   * CHBE 615 Applied Molecular Simulation & Statistcal Mechanics
 
