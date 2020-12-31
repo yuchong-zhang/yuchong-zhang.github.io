@@ -159,3 +159,17 @@ Save memory and time. Fetch value only when needed.
         return y - x
     sorted(nums, key=reverse_numeric_function)
     ~~~
+
+16. <b>Utilities from functools package</b><br/>
+    ~~~ python
+    #reduce
+    from functools import reduce #reduce(function, iterable[, initializer])
+    d={"a":{"b":{"c":4}}}
+    l=["a","b","c"]
+    from operator import getitem #getitem(x,y)->x[y]
+    reduce(getitem, l, d) #return 4
+    #lru_cache
+    from functools import lru_cache
+    @lru_cache(None) #memorization
+    def my_function():
+    ~~~
