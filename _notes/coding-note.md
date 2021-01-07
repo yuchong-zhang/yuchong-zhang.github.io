@@ -137,6 +137,14 @@ permalink: /notebook/coding-note
             return True  
     ~~~
 
+7. <b>Basic bit manipulation</b><br/>
+    (a & b)<sub>i</sub> = a<sub>i</sub> * b<sub>i</sub>  
+    (a | b)<sub>i</sub> = a<sub>i</sub> + b<sub>i</sub> - a<sub>i</sub> * b<sub>i</sub>  
+    (a ^ b)<sub>i</sub> = (a<sub>i</sub> + b<sub>i</sub>) mod 2  
+    ~ a<sub>i</sub> = 1 - a<sub>i</sub>  
+    a << n = a * 2<sup>n</sup>  
+    a >> n = floor(a / 2<sup>n</sup>) 
+
 
 
 
