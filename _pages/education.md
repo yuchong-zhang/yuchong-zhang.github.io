@@ -10,7 +10,7 @@ author_profile: true
   * CS 6200: Introduction to Operating Systems
 
 **MS in Statistics, Rice University**
-* Coursework (GPA: 4.00):
+* Coursework (GPA: 3.97):
   * STAT 518 Probability
   * STAT 519 Statistical Inference
   * STAT 535 Data Science Projects
