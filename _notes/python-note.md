@@ -187,7 +187,18 @@ Save memory and time. Fetch value only when needed.
     #for immutables, both approaches work the same
     ~~~
 
-19. <b>How to break out of multiple loops?</b><br/>
+19. <b>Shallow copy and deep copy</b><br/>
+    ~~~ python
+    import copy
+    a=[[1,2,3],[4,5,6]]
+    #the followings are shallow copies (the top level)
+    a[:], a[:][:], a.copy(), copy.copy(a)
+    #the following are deep copies
+    [ele[:] for ele in a] #(works for this double-level case)
+    copy.deepcopy(a) #(applies to any level)
+    ~~~
+
+20. <b>How to break out of multiple loops?</b><br/>
     ~~~ python
     #refactor the nested loop into a function
     def fun():
