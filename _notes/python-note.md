@@ -194,8 +194,8 @@ Save memory and time. Fetch value only when needed.
     #the followings are shallow copies (the top level)
     a[:], a[:][:], a.copy(), copy.copy(a)
     #the following are deep copies
-    [ele[:] for ele in a] #(works for this double-level case)
-    copy.deepcopy(a) #(applies to any level)
+    [ele[:] for ele in a] #works for this double-level case
+    copy.deepcopy(a) #applies to any level
     ~~~
 
 20. <b>How to break out of multiple loops?</b><br/>
